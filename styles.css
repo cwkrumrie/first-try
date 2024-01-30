@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: #fffffffe;
+}
+
+nav {
+  font-family: Helvetica, sans-serif;
+  background-color:rgb(100, 16, 145);
+  color: #fff;
+  margin: 0; 
+  padding: 1px;
+  border-bottom: solid 2px rgba(160, 160, 160, 0.5);
+}
+
+header {
+  font-family: Helvetica, sans-serif;
+  background-color:rgb(100, 16, 145);
+  color: #fff;
+  margin: 0;
+  padding: 5px; 
+}
+
+footer {
+  font-family: Helvetica, sans-serif;
+  background-color:rgb(100, 16, 145);
+  color: #fff;
+  margin: 0;
+  padding: 2px
+}
+
+h1 {
+  color: rgba(240, 249, 2, 0.842);
+  font-size: 24pt;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 20pt;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 16pt;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
+  font-size: 14pt;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight: 500;
+  color: rgba(220, 222, 137, 0.842)
+}
+
+p img {
+  border: none;
+  padding: 0 15px 0;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+a {
+  color: #ff8ec5;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8d91e9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #e77bff;
+}
+
+.align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.footer {
+  font-family: Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+main {
+  background-image: url("Assets/galaxy.avif");
+  background-size: 100%;
+}
+
+html {
+  background-color: rgb(39, 39, 38);
+}
+
+img {
+  border: 4px solid rgba(80, 78, 78, 0.45)
+}
+
+.app {
+  background: rgba(39, 39, 38, .80);
+  width: 90%;
+  max-width: 600px;
+  margin: 10px auto 10px;
+  border: solid 4px rgba(100, 16, 145, 0.25);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.app h1 {
+  font-size: 25px;
+  color: #ffccb3;
+  font-weight: 600;
+  border-bottom: 3px solid #f3f3f383;
+  padding-bottom: 30px;
+}
+.app2 {
+  background: rgba(39, 39, 38, 0.80);
+  width: 90%;
+  max-width: 900px;
+  margin: 10px auto 10px;
+  border: solid 4px rgba(100, 16, 145, 0.25);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.app2 h1 {
+  font-size: 25px;
+  color: #ffccb3;
+  font-weight: 600;
+  border-bottom: 3px solid #f3f3f383;
+  padding-bottom: 30px;
+}
